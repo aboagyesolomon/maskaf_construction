@@ -13,7 +13,7 @@ const DefaultLayOut = () => {
 
 
     return(<>
-        <PreLoader />
+        
 
         <NavBar />
 
