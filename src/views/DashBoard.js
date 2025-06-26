@@ -56,11 +56,25 @@ const DashBoard = () => {
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-service-cap mb-30">
                         <div class="service-img">
-                            <img src="assets/img/pictures/pic1.jpg" alt=""/>
+                            <img src="assets/img/pictures/building/build1.jpg" alt=""/>
                         </div>
                         <div class="service-cap">
-                            <h4><a href="services_details.html">Building techniques & implementation</a></h4>
-                            <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                            <h4><a href="services_details.html">Building</a></h4>
+                            {/* <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a> */}
+                        </div>
+                        <div class="service-icon">
+                            <img src="assets/img/icon/services_icon1.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-service-cap mb-30">
+                        <div class="service-img">
+                            <img src="assets/img/pictures/doors/door6.jpg" alt=""/>
+                        </div>
+                        <div class="service-cap">
+                            <h4><a href="services_details.html">Doors</a></h4>
+                            {/* <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a> */}
                         </div>
                         <div class="service-icon">
                             <img src="assets/img/icon/services_icon1.png" alt=""/>
@@ -73,8 +87,8 @@ const DashBoard = () => {
                             <img src="assets/img/pictures/pic4.jpg" alt=""/>
                         </div>
                         <div class="service-cap">
-                            <h4><a href="services_details.html">Tiling techniques & Designs</a></h4>
-                            <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                            <h4><a href="services_details.html">Tiling</a></h4>
+                            <a href="services_details.html" class="more-btn"></a>
                         </div>
                         <div class="service-icon">
                             <img src="assets/img/icon/services_icon1.png" alt=""/>
@@ -87,8 +101,8 @@ const DashBoard = () => {
                             <img src="assets/img/pictures/pic5.jpg" alt=""/>
                         </div>
                         <div class="service-cap">
-                            <h4><a href="services_details.htmlaa">Engineering techniques &  implementation</a></h4>
-                            <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a>
+                            <h4><a href="services_details.htmlaa">Roofing</a></h4>
+                            <a href="services_details.html" class="more-btn"></a>
                         </div>
                         <div class="service-icon">
                             <img src="assets/img/icon/services_icon1.png" alt=""/>
@@ -100,32 +114,40 @@ const DashBoard = () => {
     </div>
    
     <section class="support-company-area fix pt-10">
-        <div class="support-wrapper align-items-end">
-            <div class="left-content">
-               
-                <div class="section-tittle section-tittle2 mb-55">
-                    <div class="front-text">
-                        <h2 class="">Who we are</h2>
-                    </div>
-                    <span class="back-text">About us</span>
-                </div>
-                <div class="support-caption">
-                    <p class="pera-top">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
-                    <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
-                    <a href="about.html" class="btn red-btn2">read more</a>
-                </div>
+    <div class="support-wrapper align-items-start">
+    <div class="left-content">
+        <div class="section-tittle section-tittle2 mb-30">
+            <div class="front-text">
+                <h2>Who We Are</h2>
             </div>
-            <div class="right-content">
-               
-                <div class="right-img">
-                    <img src="assets/img/gallery/safe_in.png" alt=""/>
-                </div>
-                <div class="support-img-cap text-center">
-                    <span>1994</span>
-                    <p>Since</p>
-                </div>
-            </div>
+            <span class="back-text">About Us</span>
         </div>
+        <div class="support-caption">
+            <p class="pera-top">
+                <strong>Maskaf Construction</strong> is a trusted building and renovation company known for delivering quality construction solutions with a commitment to excellence and durability. Founded with a passion for modern infrastructure, we take pride in turning your dream projects into reality.
+            </p>
+            <p>
+                We specialize in residential and commercial construction, remodeling, and general building works. What sets us apart is our flexible **installment payment options**, making it easier for clients to build or renovate without financial pressure. At Maskaf Construction, quality is not just a promise — it’s our standard.
+            </p>
+            <a href="about.html" class="btn red-btn2">Read More</a>
+        </div>
+    </div>
+
+    <div class="right-content mt-4 mt-md-0">
+        <div class="right-img">
+            <img src="assets/img/pictures/CEO.jpg" alt="CEO of Maskaf Construction" style={{
+             maxHeight: '700px',
+             width: '100%',
+            
+            }}/>
+        </div>
+        <div class="support-img-cap text-center">
+            <span>2010</span>
+            <p>Since</p>
+        </div>
+    </div>
+</div>
+
     </section>
   
     <section class="project-area  section-padding30">
@@ -169,7 +191,7 @@ const DashBoard = () => {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/pictures/pic5.jpg" alt=""/>
+                                            <img src="assets/img/pictures/doors/door10.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
                                                 {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
@@ -196,45 +218,45 @@ const DashBoard = () => {
                                                 <img src="assets/img/pictures/pic7.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/pictures/pic8.jpg" alt=""/>
+                                                <img src="assets/img/pictures/doors/door15.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/pictures/pic9.jpg" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof6.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project6.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build4.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
@@ -248,72 +270,109 @@ const DashBoard = () => {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project5.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build1.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project6.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build2.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project1.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build4.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project2.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build3.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/building/build5.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project3.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build6.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project4.png" alt=""/>
+                                                <img src="assets/img/pictures/building/build1.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/building/build1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/building/build1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
@@ -327,72 +386,207 @@ const DashBoard = () => {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project3.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof1.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project4.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof2.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project1.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof3.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project2.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof4.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project5.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof5.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof7.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project6.png" alt=""/>
+                                                <img src="assets/img/pictures/roofing/roof8.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof9.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof11.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof12.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof13.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof14.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof15.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof6.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                                <img src="assets/img/pictures/roofing/roof10.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
@@ -406,7 +600,43 @@ const DashBoard = () => {
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project1.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door2.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door3.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door4.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
                                                 <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
@@ -414,11 +644,119 @@ const DashBoard = () => {
                                                 <h4><a href="project_details.html">Factory</a></h4>
                                             </div>
                                         </div>
+                                    </div> */}
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door5.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project2.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door6.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door7.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door8.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door9.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door11.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door10.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door9.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door12.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door13.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
                                                 <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
@@ -426,52 +764,160 @@ const DashBoard = () => {
                                                 <h4><a href="project_details.html">Factory</a></h4>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project3.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door14.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project4.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door15.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project5.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-project mb-30">
                                             <div class="project-img">
-                                                <img src="assets/img/gallery/project6.png" alt=""/>
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
                                             </div>
                                             <div class="project-cap">
-                                                <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
                                                <h4><a href="project_details.html">Floride Chemicals</a></h4>
-                                                <h4><a href="project_details.html">Factory</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door1.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
                                             </div>
                                         </div>
                                     </div>

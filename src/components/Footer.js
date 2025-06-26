@@ -40,11 +40,11 @@ const Footer = () => {
                                    <div class="footer-tittle">
                                        <h4>Contact</h4>
                                        <div class="footer-pera">
-                                           <p class="info1">198 West 21th Street, Suite 721 New York,NY 10010</p>
+                                           <p class="info1">Accra, Kasoa Choice</p>
                                        </div>
                                        <ul>
-                                           <li><a href="#">Phone: +95 (0) 123 456 789</a></li>
-                                           <li><a href="#">Cell: +95 (0) 123 456 789</a></li>
+                                           <li><a href="#">Phone: +233 (0) 53 193 9973</a></li>
+                                           <li><a href="#">Cell: +233 (0) 55 495 2573</a></li>
                                        </ul>
                                    </div>
                                </div>
