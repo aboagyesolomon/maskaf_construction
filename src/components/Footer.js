@@ -16,9 +16,12 @@ const Footer = () => {
                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""/></a>
                                    </div>
                                    <div class="footer-tittle">
-                                       <div class="footer-pera">
-                                           <p class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
-                                       </div>
+                                   <div class="footer-pera">
+  <p class="info1">
+    Maskaf Construction delivers quality building solutions with flexible payment options. We build with integrity, precision, and a commitment to your vision.
+  </p>
+</div>
+
                                    </div>
                                </div>
                            </div>
