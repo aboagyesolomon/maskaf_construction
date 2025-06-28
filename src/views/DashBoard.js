@@ -114,41 +114,43 @@ const DashBoard = () => {
     </div>
    
     <section class="support-company-area fix pt-10">
-    <div class="support-wrapper align-items-start">
+  <div class="support-wrapper align-items-start">
     <div class="left-content">
-        <div class="section-tittle section-tittle2 mb-30">
-            <div class="front-text">
-                <h2>Who We Are</h2>
-            </div>
-            <span class="back-text">About Us</span>
+      <div class="section-tittle section-tittle2 mb-30">
+        <div class="front-text">
+          <h2>Who We Are</h2>
         </div>
-        <div class="support-caption">
-            <p class="pera-top">
-                <strong>Maskaf Construction</strong> is a trusted building and renovation company known for delivering quality construction solutions with a commitment to excellence and durability. Founded with a passion for modern infrastructure, we take pride in turning your dream projects into reality.
-            </p>
-            <p>
-                We specialize in residential and commercial construction, remodeling, and general building works. What sets us apart is our flexible **installment payment options**, making it easier for clients to build or renovate without financial pressure. At Maskaf Construction, quality is not just a promise — it’s our standard.
-            </p>
-            <a href="about.html" class="btn red-btn2">Read More</a>
-        </div>
+        <span class="back-text">About Us</span>
+      </div>
+      <div class="support-caption">
+        <p class="pera-top">
+          <strong>Maskaf Construction</strong> is a trusted building and renovation company known for delivering quality construction solutions with a commitment to excellence and durability. Founded with a passion for modern infrastructure, we take pride in turning your dream projects into reality.
+        </p>
+        <p>
+          We specialize in residential and commercial construction, remodeling, and general building works. What sets us apart is our flexible <strong>installment payment options</strong>, making it easier for clients to build or renovate without financial pressure. At Maskaf Construction, quality is not just a promise — it’s our standard.
+        </p>
+        <p>
+          The company is led by <strong>Mr. Richard Amoako</strong>, a visionary leader with deep experience in construction and project delivery. His hands-on leadership ensures every project reflects excellence, reliability, and customer satisfaction.
+        </p>
+        <a href="about.html" class="btn red-btn2">Read More</a>
+      </div>
     </div>
 
     <div class="right-content mt-4 mt-md-0">
-        <div class="right-img">
-            <img src="assets/img/pictures/CEO.jpg" alt="CEO of Maskaf Construction" style={{
-             maxHeight: '700px',
-             width: '100%',
-            
-            }}/>
-        </div>
-        <div class="support-img-cap text-center">
-            <span>2010</span>
-            <p>Since</p>
-        </div>
+      <div class="right-img">
+        <img src="assets/img/pictures/CEO.jpg" alt="CEO of Maskaf Construction" style={{
+          maxHeight: '700px',
+          width: '100%',
+        }}/>
+      </div>
+      <div class="support-img-cap text-center">
+        <span>2010</span>
+        <p>Since</p>
+      </div>
     </div>
-</div>
+  </div>
+</section>
 
-    </section>
   
     <section class="project-area  section-padding30">
         <div class="container">
@@ -1127,7 +1129,7 @@ const DashBoard = () => {
                             <img src="assets/img/pictures/Doors.jpg" alt="" style={{maxHeight: '6000px',width: '100%',}}/>
                         </div>
                         <div class="team-caption">
-                            <span>Doors</span>
+                            <span>Alumium Glass</span>
                             <h3>Kwabena Afreh</h3>
                         </div>
                     </div>
