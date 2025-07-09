@@ -73,7 +73,7 @@ const DashBoard = () => {
                             <img src="assets/img/pictures/doors/door6.jpg" alt=""/>
                         </div>
                         <div class="service-cap">
-                            <h4><a href="services_details.html">Doors</a></h4>
+                            <h4><a href="services_details.html">Alumium Glazing</a></h4>
                             {/* <a href="services_details.html" class="more-btn">Read More <i class="ti-plus"></i></a> */}
                         </div>
                         <div class="service-icon">
@@ -173,7 +173,8 @@ const DashBoard = () => {
                                     <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Show  all </a>
                                     <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Buildings</a>
                                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Roofing</a>
-                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Doors</a>
+                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Alumium Glazing</a>
+                                    {/* <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Alumium Glazing</a> */}
                                     {/* <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Grafoto/Tiling</a> */}
                                 </div>
                             </nav>
@@ -1025,10 +1026,12 @@ const DashBoard = () => {
               <span className="back-text">Let’s Chat</span>
             </div>
             <p>
-              Have a project in mind? At <strong>Maskaf Construction</strong>, we’re always ready to listen and help you build with confidence.
-              Whether it's a home, shop, or office space, we bring your vision to life — with flexible payment options to match your budget.
-              Get in touch today and let’s create something great together.
-            </p>
+  Have a project in mind? At <strong>Maskaf Construction</strong>, we’re always ready to listen and help you build with confidence.
+  Whether it's a home, shop, or office space, we bring your vision to life — with flexible payment options to match your budget.
+  We also sell houses, lands, and rent out properties to suit your needs. 
+  Get in touch today and let’s create something great together.
+</p>
+
             <a href="#contact" className="white-btn">Contact Us</a>
           </div>
         </div>
@@ -1131,6 +1134,17 @@ const DashBoard = () => {
                         <div class="team-caption">
                             <span>Alumium Glass</span>
                             <h3>Kwabena Afreh</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/pictures/Welder.jpg" alt="" style={{maxHeight: '6000px',width: '100%',}}/>
+                        </div>
+                        <div class="team-caption">
+                            <span>Alumium Welder</span>
+                            <h3>Kwesi Marfo Patrick</h3>
                         </div>
                     </div>
                 </div>
