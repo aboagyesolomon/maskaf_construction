@@ -173,7 +173,8 @@ const DashBoard = () => {
                                     <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Show  all </a>
                                     <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Buildings</a>
                                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Roofing</a>
-                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Alumium Glazing</a>
+                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Metal Works</a>
+                                    <a class="nav-item nav-link" id="" data-toggle="tab" href="" role="tab" aria-controls="" aria-selected="false">Alumium Glass</a>
                                     {/* <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Alumium Glazing</a> */}
                                     {/* <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Grafoto/Tiling</a> */}
                                 </div>
@@ -1026,10 +1027,10 @@ const DashBoard = () => {
               <span className="back-text">Let’s Chat</span>
             </div>
             <p>
-  Have a project in mind? At <strong>Maskaf Construction</strong>, we’re always ready to listen and help you build with confidence.
-  Whether it's a home, shop, or office space, we bring your vision to life — with flexible payment options to match your budget.
-  We also sell houses, lands, and rent out properties to suit your needs. 
-  Get in touch today and let’s create something great together.
+Have a project in mind? At <strong>Maskaf Construction</strong>, we’re always ready to listen and help you build with confidence.
+Whether it's a home, shop, or office space, we bring your vision to life — with flexible payment options to match your budget.
+We also sell houses, lands, and rent out properties to suit your needs. 
+Get in touch today and let’s create something great together.
 </p>
 
             <a href="#contact" className="white-btn">Contact Us</a>
