@@ -1144,7 +1144,7 @@ const DashBoard = () => {
                         </div>
                         <div class="team-caption">
                             <span>Alumium Welder</span>
-                            <h3>Kwesi Marfo Patrick</h3>
+                            <h3>Patrick Kwesi Marfo</h3>
                         </div>
                     </div>
                 </div>
