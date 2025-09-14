@@ -15,7 +15,7 @@ const DefaultLayOut = () => {
     return(<>
         
 
-        <NavBar />
+        {/* <NavBar /> */}
 
         <Suspense fallback={<Loading/>}>
             <Routes>
