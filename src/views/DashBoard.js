@@ -1432,6 +1432,30 @@ const DashBoard = () => {
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door33.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-project mb-30">
+                                            <div class="project-img">
+                                            <img src="assets/img/pictures/doors/door34.jpg" alt=""/>
+                                            </div>
+                                            <div class="project-cap">
+                                                {/* <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                               <h4><a href="project_details.html">Floride Chemicals</a></h4>
+                                                <h4><a href="project_details.html">Factory</a></h4> */}
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
