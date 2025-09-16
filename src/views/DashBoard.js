@@ -130,7 +130,7 @@ const DashBoard = () => {
           We specialize in residential and commercial construction, remodeling, and general building works. What sets us apart is our flexible <strong>installment payment options</strong>, making it easier for clients to build or renovate without financial pressure. At Maskaf Construction, quality is not just a promise — it’s our standard.
         </p>
         <p>
-          The company is led by <strong>Mr. Richard Amoako</strong>, a visionary leader with deep experience in construction and project delivery. His hands-on leadership ensures every project reflects excellence, reliability, and customer satisfaction.
+          The company is led by <strong>Mr. Amoako Adu Richard </strong>, a visionary leader with deep experience in construction and project delivery. His hands-on leadership ensures every project reflects excellence, reliability, and customer satisfaction.
         </p>
         <a href="about.html" class="btn red-btn2">Read More</a>
       </div>
