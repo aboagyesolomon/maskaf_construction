@@ -1816,6 +1816,17 @@ Get in touch today and let’s create something great together.
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                     <div class="single-team mb-30">
                         <div class="team-img">
+                            <img src="assets/img/pictures/Welder.jpg" alt="" style={{maxHeight: '6000px',width: '100%',}}/>
+                        </div>
+                        <div class="team-caption">
+                            <span>Metal Works</span>
+                            <h3>Patrick Kwasi Marfo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
                             <img src="assets/img/pictures/carpenter.jpg" alt="" style={{maxHeight: '6000px',width: '100%',}}/>
                         </div>
                         <div class="team-caption">
