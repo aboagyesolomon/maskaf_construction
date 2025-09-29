@@ -1717,7 +1717,7 @@ Get in touch today and let’s create something great together.
 </section>
 
     
-    <div class="count-area">
+    {/* <div class="count-area">
         <div class="container">
             <div class="count-wrapper count-bg"  style={{ backgroundImage: `url("assets/img/gallery/section-bg3.jpg")` }}>
                 <div class="row justify-content-center" >
@@ -1763,7 +1763,7 @@ Get in touch today and let’s create something great together.
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
    
     <div class="team-area section-padding30">
         <div class="container">
